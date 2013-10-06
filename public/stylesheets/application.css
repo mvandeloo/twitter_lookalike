@@ -70,6 +70,10 @@ li {
  opacity: 0.2;
 }
 
+.settings:hover {	
+ opacity: 1;
+}
+
 .createtweet {	
  float: right;
  margin-left: 10px;
@@ -169,8 +173,33 @@ float: left;
 }
 
 
-#functionlinks {
-display: none;		
+.functionlinks {
+display: none;
+}
+
+
+#flyout {
+background-color: white;
+display: none;
+z-index: 5;
+float: right;
+margin-top: 20px;
+width: 200px;
+height: 400 px;
+border: solid thin silver;
+}
+
+#tooltip {
+background-color: black;
+opacity: 0.8;
+color: white;
+display: none;
+z-index: 5;
+float: right;
+right: 20px;
+margin-top: 20px;
+width: 100px;
+height: 50 px;
 }
 
 .functionlink {
@@ -190,8 +219,45 @@ left: 15px;
 width: 302px;
 z-index:2;	
 top: 0px;
-background-color: white;
+
 position: absolute;
+}
+
+
+#box1 {
+float: left;
+width: 100%;
+height: 200px; 
+z-index:4;	
+margin-bottom: 20px;
+background-color: white;
+}
+
+#box2 {
+float: left;
+width: 302px;
+height: 200px; 
+z-index:4;
+margin-bottom: 20px;	
+background-color: white;
+}
+
+#box3 {
+float: left;
+width: 302px;
+height: 200px; 
+z-index:4;	
+margin-bottom: 20px;
+background-color: white;
+}
+
+#box4 {
+float: left;
+width: 302px;
+height: 200px; 
+z-index:4;	
+margin-bottom: 20px;
+background-color: white;
 }
 
 .button {

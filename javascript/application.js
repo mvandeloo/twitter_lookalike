@@ -19,9 +19,21 @@ $(function() {
   });
 
   $( '.tweet' ).hover(function() {
-  	$('#functionlinks').toggle();
+  	$('.functionlinks').toggle();
   }, function() {
-  	$('#functionlinks').toggle();
+  	$('.functionlinks').toggle();
+  });
+
+  $( '.settings' ).click(function() {
+  	$('#flyout').toggle();
+  }, function() {
+  	$('#flyout').toggle();
+  });
+
+  $( '.createtweet' ).hover(function() {
+  	$('#tooltip').toggle();
+  }, function() {
+  	$('#tooltip').toggle();
   });
 })
 
