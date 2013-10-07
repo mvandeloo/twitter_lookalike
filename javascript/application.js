@@ -19,9 +19,9 @@ $(function() {
   });
 
   $( '.tweet' ).hover(function() {
-  	$('.functionlinks').toggle();
+  	$(this).find('.functionlinks').toggle();
   }, function() {
-  	$('.functionlinks').toggle();
+  	$(this).find('.functionlinks').toggle();
   });
 
   $( '.settings' ).click(function() {
